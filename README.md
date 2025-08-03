@@ -99,7 +99,7 @@ Then install these packages:
 
 For Li-Auto Dataset, since it belongs to Li Auto and Li Auto currently does not intend to make it public, the LiAuto dataset is not freely available online at the moment.
 
-For NuPlan, we process the dataset into the Hugging Face Dataset format. Click [here](http://180.167.251.46:880/NuPlanSTR/nuplan-v1.1_STR.zip) to download the NuPlan dataset.
+For NuPlan, we process the dataset into the Hugging Face Dataset format. Click [here](http://180.167.251.46:880/NuPlanSTR/nuplan-v1.1_STR.zip) to download the NuPlan dataset. In case the download link is not working, try to download from the [Google Drive](https://drive.google.com/file/d/1m5b44HJKS8mUfwQUDBTQx4sz0BuUiQer/view?usp=sharing).
 Unzip the file and pass the path to the '--saved_dataset_folder' argument to use it.
 This dataset contains the training, validation, and the test set.
 
@@ -349,3 +349,5 @@ If you find this work useful in your research, please consider cite:
       url={https://arxiv.org/abs/2410.15774}, 
 }
 ```
+
+
